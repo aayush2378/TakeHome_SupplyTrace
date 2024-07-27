@@ -1,0 +1,69 @@
+/* AllCompanies.css */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 24px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 24px;
+    color: #333;
+    font-weight: 600;
+}
+
+.search-bar {
+    margin-bottom: 24px;
+    border-radius: 8px;
+}
+
+.company-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.company-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    margin-bottom: 12px;
+    transition: all 0.3s ease;
+}
+
+.company-item:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.01);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.company-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.company-link:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+.location-link {
+    color: #28a745;
+    text-decoration: none;
+    margin-left: 16px;
+    font-weight: 500;
+}
+
+.location-link:hover {
+    text-decoration: underline;
+    color: #218838;
+}
